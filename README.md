@@ -11,5 +11,26 @@ https://golang.org/dl/
 
 2) Set your GOHOME path
 ```
-export GOPATH=$HOME/go
+source .package_profile # this sets your GOPATH and GOBIN
 ```
+
+3) Run init.sh to configure your Golang repo for the first time
+**NOTE: This isn't needed as this repo has been set up**
+```
+./init.sh
+```
+
+4) Write your application within the src directory
+
+5) Run your application
+```
+go run src/hello.go
+```
+
+6) Build your application
+```
+go build src/hello.go
+```
+
+7) You are good to GO
+
